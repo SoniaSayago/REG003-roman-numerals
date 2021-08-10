@@ -153,4 +153,4 @@ const parse = (romano) => {
 
 module.exports = {
   parse,
-}
+};

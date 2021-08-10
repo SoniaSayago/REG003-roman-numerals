@@ -2,9 +2,10 @@
   "name": "roman-numerals",
   "version": "1.0.0",
   "description": "Desarrollo de una API para convertir números arábigos en números romanos y viceversa",
+  "main": "index.js",
   "scripts": {
     "test": "jest --verbose --coverage",
-    "start": "nodemon src/parse.js"
+    "start": "node src/parse.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
   },
   "devDependencies": {
     "eslint": "^7.32.0",
+    "express": "^4.17.1",
     "jest": "^27.0.6"
   },
   "dependencies": {
